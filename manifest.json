@@ -1,0 +1,15 @@
+{
+  "manifest_version":  1,
+  "name": "YoutubeLongs",
+  "version": "0.1.0",
+  "description": "Avoid doomscrolling by making every Youtube Shorts into a Youtube Video"
+
+  "content scripts":  [
+    {
+      "matches":  [
+        "https://www.youtube.com/shorts/*"
+      ],
+      "js":  ["content.js"],
+    }
+  ]
+}
